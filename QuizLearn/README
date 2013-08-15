@@ -1,0 +1,16 @@
+About Project.
+	Name:
+		QuizLearn
+	Description:
+		A Simple multi-quiz option Learning App.
+		Make your own list of questions-answers in XML and Add it inside App to start learning using QuizLearn. 
+	Features:
+		- MultiDataSet
+		- Non-Uniformed random questioning based on user answer history
+		- Possible change of DataSets
+
+Requirements:
+	This Program is written for Android & configured to use Android SDK 1.6.
+
+Framework:
+	This Project was written using ADT & Eclipse IDE.

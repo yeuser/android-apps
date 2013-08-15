@@ -1,0 +1,3122 @@
+<sheets>
+  <sheet>
+    <question>Familie</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Heft</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Kino</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Land</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>West</question>
+    <answer>die</answer>
+    <answer correct="correct">der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Vorwahl</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Foto</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Kind</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Cd</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Weltkarte</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Contra</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Tabelle</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Esche</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Cafeteria</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Schule</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Landkarte</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Union</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Mode</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Cappuccino</question>
+    <answer>die</answer>
+    <answer correct="correct">der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Kreuzen</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Zahlen</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Sport</question>
+    <answer>die</answer>
+    <answer correct="correct">der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Wort</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Gewinner</question>
+    <answer>die</answer>
+    <answer correct="correct">der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Liege</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Hallo</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Lehrer</question>
+    <answer>die</answer>
+    <answer correct="correct">der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Haus</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Spanisch</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Nennen</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Es</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Freundin</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Politiker</question>
+    <answer>die</answer>
+    <answer correct="correct">der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Arzt</question>
+    <answer>die</answer>
+    <answer correct="correct">der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Tourist</question>
+    <answer>die</answer>
+    <answer correct="correct">der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Ei</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Frage</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Norden</question>
+    <answer>die</answer>
+    <answer correct="correct">der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Heia</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Zwei</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Schweiz</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Schreiben</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Gei</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Fehler</question>
+    <answer>die</answer>
+    <answer correct="correct">der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Bestellen</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Bleistift</question>
+    <answer>die</answer>
+    <answer correct="correct">der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Ladner</question>
+    <answer>die</answer>
+    <answer correct="correct">der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Student</question>
+    <answer>die</answer>
+    <answer correct="correct">der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Sekretärin</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Marktplatz</question>
+    <answer>die</answer>
+    <answer correct="correct">der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Stadt</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Videogerät</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Minute</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Kontakt</question>
+    <answer>die</answer>
+    <answer correct="correct">der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Sieb</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Gen</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Musikerin</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Beginnen</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Staatsoper</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Kreuz</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Reichstag</question>
+    <answer>die</answer>
+    <answer correct="correct">der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Stadtplan</question>
+    <answer>die</answer>
+    <answer correct="correct">der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Medizin</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Drei</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Aus</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Videorecorder</question>
+    <answer>die</answer>
+    <answer correct="correct">der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Kollektion</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Graz</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer correct="correct">Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Treffen</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Asien</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer correct="correct">Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Supermarkt</question>
+    <answer>die</answer>
+    <answer correct="correct">der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Saft</question>
+    <answer>die</answer>
+    <answer correct="correct">der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Jeans</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Flair</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Brücke</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Technologie</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Australien</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer correct="correct">Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Übung</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Zeit</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Sage</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Anschreiben</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Spielen</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Verb</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Amerika</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer correct="correct">Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Main</question>
+    <answer>die</answer>
+    <answer correct="correct">der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Region</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Gruppe</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Hören</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Radio</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Zuordnen</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Espresso</question>
+    <answer>die</answer>
+    <answer correct="correct">der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Technik</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Zehn</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Grenzen</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Designer</question>
+    <answer>die</answer>
+    <answer correct="correct">der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Dialog</question>
+    <answer>die</answer>
+    <answer correct="correct">der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Kuli</question>
+    <answer>die</answer>
+    <answer correct="correct">der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Europa</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer correct="correct">Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Laut</question>
+    <answer>die</answer>
+    <answer correct="correct">der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Skyline</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Tisch</question>
+    <answer>die</answer>
+    <answer correct="correct">der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Wörterbuch</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Antwort</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Atmosphäre</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Silbe</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Büro</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Üben</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Steiermark</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Tee</question>
+    <answer>die</answer>
+    <answer correct="correct">der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Biologie</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Eins</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Markieren</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Kooperieren</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Variation</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Papier</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Euroschein</question>
+    <answer>die</answer>
+    <answer correct="correct">der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Können</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Musiker</question>
+    <answer>die</answer>
+    <answer correct="correct">der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Ingenieur</question>
+    <answer>die</answer>
+    <answer correct="correct">der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Wasser</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Deutsch</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Hauptstadt</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Singular</question>
+    <answer>die</answer>
+    <answer correct="correct">der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Preis</question>
+    <answer>die</answer>
+    <answer correct="correct">der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Heimat</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Geschichte</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Gitarre</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Sortieren</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Kurs</question>
+    <answer>die</answer>
+    <answer correct="correct">der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Wohnen</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Regel</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Player</question>
+    <answer>die</answer>
+    <answer correct="correct">der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Jahr</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Grenze</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Mainzer</question>
+    <answer>die</answer>
+    <answer correct="correct">der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Tür</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Euro</question>
+    <answer>die</answer>
+    <answer correct="correct">der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Pilot</question>
+    <answer>die</answer>
+    <answer correct="correct">der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Gute</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Volk</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Polizei</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Beam</question>
+    <answer>die</answer>
+    <answer correct="correct">der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Playstation</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Tasche</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Höhle</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Bitte</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Nummer</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Erhängen</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Taxizentrale</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Donau</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Gymnasium</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Grammatik</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Nein</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Person</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Verstehen</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Latte</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Eistee</question>
+    <answer>die</answer>
+    <answer correct="correct">der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Aufgabe</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Hausaufgabe</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Fahren</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Mutter</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Fünf</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Karten</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Orchester</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Suchen</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Sprachschule</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Musik</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Taxi</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Tag</question>
+    <answer>die</answer>
+    <answer correct="correct">der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Englisch</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Beruf</question>
+    <answer>die</answer>
+    <answer correct="correct">der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Chemie</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Mal</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Body</question>
+    <answer>die</answer>
+    <answer correct="correct">der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Süd</question>
+    <answer>die</answer>
+    <answer correct="correct">der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Süden</question>
+    <answer>die</answer>
+    <answer correct="correct">der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Ergänzen</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Wiedersehen</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Verbum</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Cardiff</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer correct="correct">Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Tragen</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Internationale</question>
+    <answer correct="correct">die</answer>
+    <answer correct="correct">der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Ban</question>
+    <answer>die</answer>
+    <answer correct="correct">der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Trinken</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Osten</question>
+    <answer>die</answer>
+    <answer correct="correct">der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Ja</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Beispiel</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Nord</question>
+    <answer>die</answer>
+    <answer correct="correct">der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Arbeiten</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Fax</question>
+    <answer>die</answer>
+    <answer correct="correct">der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Entschuldigung</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Fernseher</question>
+    <answer>die</answer>
+    <answer correct="correct">der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Fußball</question>
+    <answer>die</answer>
+    <answer correct="correct">der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Museum</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Pause</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Ordnen</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Jen</question>
+    <answer>die</answer>
+    <answer correct="correct">der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Key</question>
+    <answer>die</answer>
+    <answer correct="correct">der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Model</question>
+    <answer>die</answer>
+    <answer correct="correct">der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Tafel</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Grün</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Handy</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Reformer</question>
+    <answer>die</answer>
+    <answer correct="correct">der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Gouverneur</question>
+    <answer>die</answer>
+    <answer correct="correct">der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Lerner</question>
+    <answer>die</answer>
+    <answer correct="correct">der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Satz</question>
+    <answer>die</answer>
+    <answer correct="correct">der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Rechnung</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Lesen</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Ski</question>
+    <answer>die</answer>
+    <answer correct="correct">der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Computer</question>
+    <answer>die</answer>
+    <answer correct="correct">der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Herbst</question>
+    <answer>die</answer>
+    <answer correct="correct">der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Zahlungsmittel</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Garten</question>
+    <answer>die</answer>
+    <answer correct="correct">der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Buch</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Hobby</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Besan</question>
+    <answer>die</answer>
+    <answer correct="correct">der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Suche</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Bei</question>
+    <answer>die</answer>
+    <answer correct="correct">der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Westen</question>
+    <answer>die</answer>
+    <answer correct="correct">der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Mokka</question>
+    <answer>die</answer>
+    <answer correct="correct">der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Recorder</question>
+    <answer>die</answer>
+    <answer correct="correct">der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Kursbuch</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Liegen</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Fliegen</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Österreich</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer correct="correct">Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Uhr</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Fliege</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Französisch</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Präsens</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Chinesisch</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Hergang</question>
+    <answer>die</answer>
+    <answer correct="correct">der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Kennen</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Sechs</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Internationalität</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Sieben</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Favorit</question>
+    <answer>die</answer>
+    <answer correct="correct">der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Nachbarin</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Ach</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Collage</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Werbung</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Dance</question>
+    <answer>die</answer>
+    <answer correct="correct">der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Iran</question>
+    <answer>die</answer>
+    <answer correct="correct">der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Arbeit</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Oper</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Spiel</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Vorname</question>
+    <answer>die</answer>
+    <answer correct="correct">der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Schwamm</question>
+    <answer>die</answer>
+    <answer correct="correct">der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Ensemble</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Bildung</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Einwohner</question>
+    <answer>die</answer>
+    <answer correct="correct">der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Café</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Mir</question>
+    <answer>die</answer>
+    <answer correct="correct">der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Airbus</question>
+    <answer>die</answer>
+    <answer correct="correct">der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Ball</question>
+    <answer>die</answer>
+    <answer correct="correct">der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Erzgang</question>
+    <answer>die</answer>
+    <answer correct="correct">der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Semester</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Sech</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Afrika</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer correct="correct">Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Ankreuzen</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Deutsche</question>
+    <answer correct="correct">die</answer>
+    <answer correct="correct">der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Laune</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Füller</question>
+    <answer>die</answer>
+    <answer correct="correct">der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Projektor</question>
+    <answer>die</answer>
+    <answer correct="correct">der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Herkunft</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Sehenswürdigkeit</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Fuß</question>
+    <answer>die</answer>
+    <answer correct="correct">der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Lese</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Konzert</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Verheiraten</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Würdigkeit</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Paradies</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Shirt</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Mädchen</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Neun</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Karriere</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Weste</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Passen</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Lampe</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Herr</question>
+    <answer>die</answer>
+    <answer correct="correct">der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Mensch</question>
+    <answer>die</answer>
+    <answer correct="correct">der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Kommunikation</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Tradition</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Basis</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Bank</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Freund</question>
+    <answer>die</answer>
+    <answer correct="correct">der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Zahl</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Trage</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Leut</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer correct="correct">Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Orientierung</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Kaffee</question>
+    <answer>die</answer>
+    <answer correct="correct">der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Zwölf</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Zeitung</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Architektur</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Violine</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Nachbar</question>
+    <answer>die</answer>
+    <answer correct="correct">der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Institut</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Jazz</question>
+    <answer>die</answer>
+    <answer correct="correct">der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Schreibe</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Sprache</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Fusa</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Kultur</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Spezialität</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Top</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Tor</question>
+    <answer>die</answer>
+    <answer correct="correct">der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Ballet</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Aussagesatz</question>
+    <answer>die</answer>
+    <answer correct="correct">der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Sommer</question>
+    <answer>die</answer>
+    <answer correct="correct">der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Löwe</question>
+    <answer>die</answer>
+    <answer correct="correct">der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Heißen</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Mehr</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Vorstellen</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Kursteilnehmer</question>
+    <answer>die</answer>
+    <answer correct="correct">der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Ökonomie</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Usa</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer correct="correct">Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Internet</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Akzent</question>
+    <answer>die</answer>
+    <answer correct="correct">der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Tasse</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Raumsonde</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Landser</question>
+    <answer>die</answer>
+    <answer correct="correct">der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Bezahlen</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Erklären</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Gruß</question>
+    <answer>die</answer>
+    <answer correct="correct">der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Elf</question>
+    <answer correct="correct">die</answer>
+    <answer correct="correct">der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Bild</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Kreide</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Cola</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Radiergummi</question>
+    <answer>die</answer>
+    <answer correct="correct">der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Morgen</question>
+    <answer>die</answer>
+    <answer correct="correct">der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Plural</question>
+    <answer>die</answer>
+    <answer correct="correct">der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Stuhl</question>
+    <answer>die</answer>
+    <answer correct="correct">der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Sagen</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Elektronik</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Lehrerin</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Ingenieurin</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Hotel</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Tennis</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Plakat</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Kontinent</question>
+    <answer>die</answer>
+    <answer correct="correct">der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Alb</question>
+    <answer>die</answer>
+    <answer correct="correct">der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Tourismus</question>
+    <answer>die</answer>
+    <answer correct="correct">der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Frühling</question>
+    <answer>die</answer>
+    <answer correct="correct">der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Karte</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Hoch</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Verkehr</question>
+    <answer>die</answer>
+    <answer correct="correct">der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Tochter</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Tennisball</question>
+    <answer>die</answer>
+    <answer correct="correct">der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Alt</question>
+    <answer>die</answer>
+    <answer correct="correct">der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Wortfeld</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Klar</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Abend</question>
+    <answer>die</answer>
+    <answer correct="correct">der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Schloß</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Alp</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer correct="correct">Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Sammeln</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Antworten</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Auto</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Wiederholen</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Personalangabe</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Getränk</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Ideal</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Frau</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Studieren</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Wortakzent</question>
+    <answer>die</answer>
+    <answer correct="correct">der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Universität</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Symbol</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Theater</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Bäschen</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Ort</question>
+    <answer>die</answer>
+    <answer correct="correct">der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Aussprache</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Gespräch</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Dank</question>
+    <answer>die</answer>
+    <answer correct="correct">der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Winter</question>
+    <answer>die</answer>
+    <answer correct="correct">der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Türkei</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Vier</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Slowakei</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Moment</question>
+    <answer>die</answer>
+    <answer correct="correct">der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Film</question>
+    <answer>die</answer>
+    <answer correct="correct">der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Notieren</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Ost</question>
+    <answer>die</answer>
+    <answer correct="correct">der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Leben</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Telefon</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Job</question>
+    <answer>die</answer>
+    <answer correct="correct">der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Name</question>
+    <answer>die</answer>
+    <answer correct="correct">der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Text</question>
+    <answer correct="correct">die</answer>
+    <answer correct="correct">der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Restaurant</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Buchstabieren</question>
+    <answer>die</answer>
+    <answer>der</answer>
+    <answer correct="correct">das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Passe</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Geografie</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Acht</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Ahnung</question>
+    <answer correct="correct">die</answer>
+    <answer>der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+  <sheet>
+    <question>Schein</question>
+    <answer>die</answer>
+    <answer correct="correct">der</answer>
+    <answer>das</answer>
+    <answer>Ohne Artikel</answer>
+    <answer>Nur Plural</answer>
+  </sheet>
+</sheets>
