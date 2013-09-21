@@ -82,7 +82,7 @@ public class QuizListSpinner extends Activity {
 		try {
 			XmlResourceParser xrp = getResources().getXml(getIntent().getIntExtra("type", R.xml.kanji));
 			String name = getIntent().getStringExtra("answerfile");
-			quizes = QuizListActivityList.getQuizSet(xrp, name);
+			quizes = QuizListActivityList.getQuizSet(xrp, name, this);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}

@@ -16,6 +16,8 @@ import org.xml.sax.helpers.DefaultHandler;
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;
 
+import android.app.Activity;
+
 public class XMLQuizSets {
 	private static void _runXMLPullParserOver(MyXMLHandler myxh, final XmlPullParser xpp) throws XmlPullParserException, SAXException,
 			IOException {
@@ -44,7 +46,7 @@ public class XMLQuizSets {
 		}
 	}
 
-	public static QuizSets loadDataSets(XmlPullParser quizdatares, XmlPullParser answerdatares) {
+	public static QuizSets loadDataSets(XmlPullParser quizdatares, XmlPullParser answerdatares, String saveFile, Activity activity) {
 		MyXMLHandler myxh = new MyXMLHandler();
 		try {
 			_runXMLPullParserOver(myxh, quizdatares);
@@ -56,10 +58,10 @@ public class XMLQuizSets {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-		return new DataSets(myxh.sheets, myxh.answerdata);
+		return new DataSets(myxh.sheets, myxh.answerdata, saveFile, activity);
 	}
 
-	public static QuizSets loadDataSets(InputStream quizdatafile, InputStream answerdatafile) {
+	public static QuizSets loadDataSets(InputStream quizdatafile, InputStream answerdatafile, String saveFile, Activity activity) {
 		MyHandler myh = new MyHandler();
 		SAXParserFactory factory = SAXParserFactory.newInstance();
 		factory.setValidating(true);
@@ -73,10 +75,10 @@ public class XMLQuizSets {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-		return new DataSets(myh.handler.sheets, myh.handler.answerdata);
+		return new DataSets(myh.handler.sheets, myh.handler.answerdata, saveFile, activity);
 	}
 
-	public static QuizSets loadDataSets(XmlPullParser quizdatares, InputStream answerdatafile) {
+	public static QuizSets loadDataSets(XmlPullParser quizdatares, InputStream answerdatafile, String saveFile, Activity activity) {
 		MyXMLHandler myxh = new MyXMLHandler();
 		try {
 			_runXMLPullParserOver(myxh, quizdatares);
@@ -91,7 +93,7 @@ public class XMLQuizSets {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-		return new DataSets(myxh.sheets, myh.handler.answerdata);
+		return new DataSets(myxh.sheets, myh.handler.answerdata, saveFile, activity);
 	}
 
 	public static void saveDataSets(QuizSets quizSets, OutputStream answerdatafile) throws IOException {

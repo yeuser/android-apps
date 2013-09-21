@@ -1,9 +1,14 @@
 package dev.quizlearn.data;
 
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
 import java.util.HashMap;
 import java.util.Set;
 import java.util.Vector;
 
+import android.app.Activity;
+import android.content.Context;
 import android.os.Bundle;
 
 public class DataSets implements QuizSets {
@@ -16,7 +21,12 @@ public class DataSets implements QuizSets {
 	private final double constAttr2 = 0.8; // percent of being OK to go to next level
 	private final int constAttr3 = 10; // number of accepted answer record for each word
 
-	public DataSets(Vector<QuizSheet> sheets, Vector<SheetAnswer> answerdata) {
+	private String saveFile;
+	private Activity activity;
+
+	public DataSets(Vector<QuizSheet> sheets, Vector<SheetAnswer> answerdata, String saveFile, Activity activity) {
+		this.saveFile = saveFile;
+		this.activity = activity;
 		for (QuizSheet quizSheet : sheets) {
 			this.sheets.add(quizSheet);
 			if (this.sheetMap.get(quizSheet.question) == null) {
@@ -218,6 +228,14 @@ public class DataSets implements QuizSets {
 		saveSessionAnswers();
 		clearSessionAnswers();
 		trimAnswerData();
+		try {
+			FileOutputStream fos = activity.openFileOutput(saveFile, Context.MODE_PRIVATE);
+			XMLQuizSets.saveDataSets(this, fos);
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
 	}
 
 	/* Test Session Data */

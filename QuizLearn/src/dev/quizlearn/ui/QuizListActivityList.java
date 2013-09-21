@@ -1,6 +1,5 @@
 package dev.quizlearn.ui;
 
-import java.io.File;
 import java.io.FileInputStream;
 import java.util.HashMap;
 
@@ -11,7 +10,6 @@ import android.app.Activity;
 import android.content.Intent;
 import android.content.res.XmlResourceParser;
 import android.os.Bundle;
-import android.os.Environment;
 import android.view.Menu;
 import android.view.View;
 import dev.quizlearn.data.QuizSets;
@@ -51,18 +49,17 @@ public class QuizListActivityList extends Activity {
 		return true;
 	}
 
-	public static QuizSets getQuizSet(XmlResourceParser xml_rid, String name) {
+	public static QuizSets getQuizSet(XmlResourceParser xml_rid, String name, Activity activity) {
 		if (quizsets.get(name) == null) {
 			XmlPullParser p = null;
 			try {
+				FileInputStream fileInputStream = activity.openFileInput("answerdata_" + name + ".xml");
 				p = XmlPullParserFactory.newInstance().newPullParser();
-				File file = new File(Environment.getExternalStorageDirectory(), ".quizlearn_data/answerdata_" + name + ".xml");
-				FileInputStream fis = new FileInputStream(file);
-				p.setInput(fis, "UTF-8");
+				p.setInput(fileInputStream, "UTF-8");
 			} catch (Exception e) {
 				e.printStackTrace();
 			}
-			QuizSets quizes = XMLQuizSets.loadDataSets(xml_rid, p);
+			QuizSets quizes = XMLQuizSets.loadDataSets(xml_rid, p, "answerdata_" + name + ".xml", activity);
 			quizes.moveForward();
 			quizsets.put(name, quizes);
 		}
