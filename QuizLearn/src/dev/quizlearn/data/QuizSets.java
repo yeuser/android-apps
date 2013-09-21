@@ -2,7 +2,7 @@ package dev.quizlearn.data;
 
 import java.util.Vector;
 
-public interface QuizSets extends StateSavable{
+public interface QuizSets extends StateSavable {
 	public int getSheetCount();
 
 	public boolean moveForward();

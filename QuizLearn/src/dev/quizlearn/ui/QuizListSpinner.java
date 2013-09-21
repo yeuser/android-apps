@@ -2,6 +2,12 @@ package dev.quizlearn.ui;
 
 import java.util.Vector;
 
+import com.google.ads.Ad;
+import com.google.ads.AdListener;
+import com.google.ads.AdRequest;
+import com.google.ads.AdRequest.ErrorCode;
+import com.google.ads.AdView;
+
 import android.app.Activity;
 import android.content.res.XmlResourceParser;
 import android.graphics.Color;
@@ -22,6 +28,11 @@ public class QuizListSpinner extends Activity {
 	private TextView answerLabel;
 	private Vector<RadioButton> radioButtons = new Vector<RadioButton>();
 	private RadioGroup options;
+	// private TextView mAdStatus;
+	private AdView mAdView;
+
+	// Ad network-specific mechanism to enable test mode.
+	private static final String TEST_DEVICE_ID = "...";
 
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
@@ -34,6 +45,18 @@ public class QuizListSpinner extends Activity {
 			quizes.LoadState(savedInstanceState);
 		}
 		changeUI();
+		// mAdStatus = (TextView) findViewById(R.id.status);
+		mAdView = (AdView) findViewById(R.id.ad);
+		mAdView.setAdListener(new MyAdListener());
+
+		AdRequest adRequest = new AdRequest();
+		adRequest.addKeyword("sporting goods");
+		// adRequest.addKeyword("ad keywords");
+
+		// Ad network-specific mechanism to enable test mode. Be sure to disable before
+		// publishing your application.
+		adRequest.addTestDevice(TEST_DEVICE_ID);
+		mAdView.loadAd(adRequest);
 	}
 
 	@Override
@@ -175,5 +198,34 @@ public class QuizListSpinner extends Activity {
 			questionLabel.setText(quizes.getCurrentIndex() + ". " + quizes.getCurrent().question);
 		}
 		changeUI();
+	}
+
+	private class MyAdListener implements AdListener {
+		@Override
+		public void onFailedToReceiveAd(Ad ad, ErrorCode errorCode) {
+			// mAdStatus.setText(R.string.error_receive_ad);
+			// TODO Auto-generated method stub
+		}
+
+		@Override
+		public void onReceiveAd(Ad ad) {
+			// mAdStatus.setText("" + ad.getClass());
+			// TODO Auto-generated method stub
+		}
+
+		@Override
+		public void onDismissScreen(Ad arg0) {
+			// TODO Auto-generated method stub
+		}
+
+		@Override
+		public void onLeaveApplication(Ad arg0) {
+			// TODO Auto-generated method stub
+		}
+
+		@Override
+		public void onPresentScreen(Ad arg0) {
+			// TODO Auto-generated method stub
+		}
 	}
 }

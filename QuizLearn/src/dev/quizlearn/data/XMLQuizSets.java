@@ -22,6 +22,8 @@ public class XMLQuizSets {
 		while (xpp.getEventType() != XmlPullParser.END_DOCUMENT) {
 			if (xpp.getEventType() == XmlPullParser.START_TAG) {
 				myxh.startElement(xpp.getName(), new XMLAttributeWorker() {
+
+					@Override
 					public String getAttribute(String attribute) {
 						for (int i = 0; i < xpp.getAttributeCount(); i++) {
 							if (xpp.getAttributeName(i).equalsIgnoreCase(attribute)) {
@@ -123,6 +125,7 @@ public class XMLQuizSets {
 			final Attributes _attributes = attributes;
 			handler.startElement(qName, new XMLAttributeWorker() {
 
+				@Override
 				public String getAttribute(String attribute) {
 					return _attributes.getValue(attribute);
 				}
