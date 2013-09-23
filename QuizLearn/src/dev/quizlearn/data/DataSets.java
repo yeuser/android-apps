@@ -4,6 +4,7 @@ import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.HashMap;
+import java.util.Random;
 import java.util.Set;
 import java.util.Vector;
 
@@ -20,6 +21,7 @@ public class DataSets implements QuizSets {
 	private final double constAttr1 = 10; // multiplier for scoring each sheet
 	private final double constAttr2 = 0.8; // percent of being OK to go to next level
 	private final int constAttr3 = 10; // number of accepted answer record for each word
+	private static final double constAttr4 = 5 * 24 * 60 * 60 * 1000; // 5 Day period
 
 	private String saveFile;
 	private Activity activity;
@@ -134,43 +136,50 @@ public class DataSets implements QuizSets {
 		Vector<SheetAnswer> answerList = answerMap.get(sh.question);
 		for (SheetAnswer shans : answerList) {
 			if (sh.checkAnswer(shans.answer)) {
-				score += Math.exp((shans.answertime - currtime) / 3.6E8);
+				score += Math.exp((shans.answertime - currtime) / constAttr4);
 			} else {
-				score -= Math.exp((shans.answertime - currtime) / 3.6E8);
+				score -= Math.exp((shans.answertime - currtime) / constAttr4);
 			}
 		}
 		return sh.score = score;
 	}
 
 	private double calculateWeight(QuizSheet sh) {
-		return sh.weight = 1 - (1 / (1 + Math.exp(constAttr1 * sh.score)));
+		return sh.weight = 1 / (1 + Math.exp(constAttr1 * sh.score));
 	}
+
+	private Random random = new Random(System.currentTimeMillis());
 
 	private QuizSheet getScoredRandomSheet() {
 		String[] answerMapKeys = answerMap.keySet().toArray(new String[] {});
-		if (sheetMap.size() >= answerMapKeys.length) {
+		// if (sheetMap.size() >= answerMapKeys.length) {
+		// return getRandomSheet();
+		// }
+		if (answerMapKeys.length < 5) {
 			return getRandomSheet();
 		}
 		double tscore = 0, tw = 0;
 		for (String key : answerMapKeys) {
 			tscore += this.getSheet(key).score;
 		}
-		if (answerMapKeys.length < 5 || tscore / answerMapKeys.length > constAttr2) {
+		if (tscore / answerMapKeys.length > constAttr2) {
 			return getRandomSheet();
 		} else {
-			double d = Math.exp(-(System.currentTimeMillis() % 20000) * 1.0E-4);
 			for (String key : answerMapKeys) {
-				if (sheetMap.get(getSheet(key).question) == null) {
-					tw += this.getSheet(key).weight;
-				}
+				// if (sheetMap.get(getSheet(key).question) == null) {
+				tw += this.getSheet(key).weight;
+				// }
 			}
-			int i = -1;
-			while (d > 0 && i < answerMapKeys.length) {
-				if (sheetMap.get(getSheet(answerMapKeys[++i]).question) == null) {
-					d -= this.getSheet(answerMapKeys[i]).weight / tw;
+			double d = random.nextDouble() * tw;
+			for (String key : answerMapKeys) {
+				// if (sheetMap.get(getSheet(key).question) == null) {
+				d -= this.getSheet(key).weight;
+				if (d <= 0) {
+					return this.getSheet(key);
 				}
+				// }
 			}
-			return this.getSheet(answerMapKeys[i]);
+			return this.getSheet(answerMapKeys[answerMapKeys.length - 1]);
 		}
 	}
 
@@ -327,4 +336,29 @@ public class DataSets implements QuizSets {
 	// // notf += ",numAtList=" + numAtList;
 	// // MainActivity.makeNotification(notf);
 	// }
+	@Override
+	public String toString() {
+		String ret = "";
+		Set<String> keySet = answerMap.keySet();
+		for (String key : keySet) {
+			QuizSheet sh = sheetMap.get(key);
+			ret += "QuizSheet{" + sh.question + "," + sh.getCorrectAnswer() + "}\r\n";
+			if (answerMap.get(sh.question) == null) {
+				ret += "answerMap.get(sh.question) == null >> 1000\r\n";
+			}
+			long currtime = System.currentTimeMillis();
+			double score = 0;
+			Vector<SheetAnswer> answerList = answerMap.get(sh.question);
+			if (answerList != null)
+				for (SheetAnswer shans : answerList) {
+					if (sh.checkAnswer(shans.answer)) {
+						score += Math.exp((shans.answertime - currtime) / 3.6E8);
+					} else {
+						score -= Math.exp((shans.answertime - currtime) / 3.6E8);
+					}
+				}
+			ret += "score >> " + score + "\r\n";
+		}
+		return ret;
+	}
 }

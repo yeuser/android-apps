@@ -1,6 +1,22 @@
 package dev.quizlearn.ui;
 
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
+import java.util.Locale;
 import java.util.Vector;
+
+import android.app.Activity;
+import android.content.res.XmlResourceParser;
+import android.graphics.Color;
+import android.os.Bundle;
+import android.provider.Settings;
+import android.util.Log;
+import android.view.Menu;
+import android.view.View;
+import android.widget.EditText;
+import android.widget.RadioButton;
+import android.widget.RadioGroup;
+import android.widget.TextView;
 
 import com.google.ads.Ad;
 import com.google.ads.AdListener;
@@ -8,16 +24,6 @@ import com.google.ads.AdRequest;
 import com.google.ads.AdRequest.ErrorCode;
 import com.google.ads.AdView;
 
-import android.app.Activity;
-import android.content.res.XmlResourceParser;
-import android.graphics.Color;
-import android.os.Bundle;
-import android.view.Menu;
-import android.view.View;
-import android.widget.EditText;
-import android.widget.RadioButton;
-import android.widget.RadioGroup;
-import android.widget.TextView;
 import dev.quizlearn.data.QuizSets;
 import dev.quizlearn.data.QuizSheet;
 
@@ -30,9 +36,10 @@ public class QuizListSpinner extends Activity {
 	private RadioGroup options;
 	// private TextView mAdStatus;
 	private AdView mAdView;
-
+	private TextView infoLabel;
 	// Ad network-specific mechanism to enable test mode.
 	private static final String TEST_DEVICE_ID = "...";
+	private static final String TAG = "debug_test";
 
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
@@ -50,13 +57,59 @@ public class QuizListSpinner extends Activity {
 		mAdView.setAdListener(new MyAdListener());
 
 		AdRequest adRequest = new AdRequest();
-		adRequest.addKeyword("sporting goods");
-		// adRequest.addKeyword("ad keywords");
+		adRequest.addKeyword("learning languages");
+		adRequest.addKeyword("japanese");
+		adRequest.addKeyword("german");
+		adRequest.setTesting(true);
+
+		// if(getApplication().debugEnabled(this)) //debug flag from somewhere that you set
+		// {
+		//
+		String android_id = Settings.Secure.getString(this.getContentResolver(), Settings.Secure.ANDROID_ID);
+		String deviceId = md5(android_id).toUpperCase(Locale.US);
+		adRequest.addTestDevice(deviceId);
+		boolean isTestDevice = adRequest.isTestDevice(this);
+
+		Log.v(TAG, "is Admob Test Device ? " + deviceId + " " + isTestDevice); // to confirm it worked
+		// }
 
 		// Ad network-specific mechanism to enable test mode. Be sure to disable before
 		// publishing your application.
 		adRequest.addTestDevice(TEST_DEVICE_ID);
 		mAdView.loadAd(adRequest);
+	}
+
+	public static final String md5(final String s) {
+		try {
+			// Create MD5 Hash
+			MessageDigest digest = java.security.MessageDigest.getInstance("MD5");
+			digest.update(s.getBytes());
+			byte messageDigest[] = digest.digest();
+
+			// Create Hex String
+			StringBuffer hexString = new StringBuffer();
+			for (int i = 0; i < messageDigest.length; i++) {
+				String h = Integer.toHexString(0xFF & messageDigest[i]);
+				while (h.length() < 2)
+					h = "0" + h;
+				hexString.append(h);
+			}
+			return hexString.toString();
+
+		} catch (NoSuchAlgorithmException e) {
+			Log.e(TAG, "NoSuchAlgorithmException @ md5", e);
+		}
+		return "";
+	}
+
+	public void hideAds() {
+		mAdView.setVisibility(View.GONE); // or you can use View.INVISIBLE, GONE is efficient.
+		return;
+	}
+
+	public void showAds() {
+		mAdView.setVisibility(View.GONE);
+		return;
 	}
 
 	@Override
@@ -67,6 +120,7 @@ public class QuizListSpinner extends Activity {
 
 	private void initializeAll() {
 		NotificationCompatibility.def = this;
+		infoLabel = (TextView) findViewById(R.id.info);
 		answerField = (EditText) findViewById(R.id.answerField);
 		questionLabel = (TextView) findViewById(R.id.questionLabel);
 		answerLabel = (TextView) findViewById(R.id.answerLabel);
@@ -180,6 +234,7 @@ public class QuizListSpinner extends Activity {
 				radioButtons.elementAt(i).setVisibility(View.GONE);
 			}
 		}
+		infoLabel.setText(quizes.toString());
 	}
 
 	protected void go2Next() {
