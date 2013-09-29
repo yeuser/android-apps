@@ -4,13 +4,9 @@ import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Iterator;
-import java.util.List;
-import java.util.ListIterator;
-import java.util.Map;
 import java.util.Random;
 import java.util.Set;
 import java.util.Vector;
@@ -21,9 +17,8 @@ import android.os.Bundle;
 
 public class DataSets implements QuizSets {
 	/* Saved Datas */
-	private Vector<QuizSheet> sheets = new Vector<QuizSheet>();
-	private HashMap<String, QuizSheet> sheetMap = new HashMap<String, QuizSheet>();
-	private HashMap<String, Vector<SheetAnswer>> answerMap = new HashMap<String, Vector<SheetAnswer>>();
+	private OrderedKeyList<String, QuizSheet> sheets = new OrderedKeyList<String, QuizSheet>();
+	private HashMap<String, Vector<SheetAnswer>> answerDataMap = new HashMap<String, Vector<SheetAnswer>>();
 	/* Semi-AI parameters */
 	private final double constAttr1 = 10; // multiplier for scoring each sheet
 	private final double constAttr2 = 0.8; // percent of being OK to go to next level
@@ -37,20 +32,21 @@ public class DataSets implements QuizSets {
 		this.saveFile = saveFile;
 		this.activity = activity;
 		for (QuizSheet quizSheet : sheets) {
-			this.sheets.add(quizSheet);
-			if (this.sheetMap.get(quizSheet.question) == null) {
-				this.sheetMap.put(quizSheet.question, quizSheet);
-			} else {
+			// this.sheets.add(quizSheet);
+			// if (this.sheetMap.get(quizSheet.question) == null) {
+			// this.sheetMap.put(quizSheet.question, quizSheet);
+			// } else {
+			if (!this.sheets.put(quizSheet.question, quizSheet)) {
 				System.err.println("Duplicate question found! " + quizSheet.question + " " + quizSheet.answer[quizSheet.correctAnswer]);
 				System.err.println("Duplicate of : "
-						+ this.sheetMap.get(quizSheet.question).answer[this.sheetMap.get(quizSheet.question).correctAnswer]);
+						+ this.sheets.get(quizSheet.question).answer[this.sheets.get(quizSheet.question).correctAnswer]);
 			}
 		}
 		for (SheetAnswer anssht : answerdata) {
-			if (answerMap.get(anssht.question) == null) {
-				answerMap.put(anssht.question, new Vector<SheetAnswer>());
+			if (answerDataMap.get(anssht.question) == null) {
+				answerDataMap.put(anssht.question, new Vector<SheetAnswer>());
 			}
-			answerMap.get(anssht.question).add(anssht);
+			answerDataMap.get(anssht.question).add(anssht);
 		}
 		for (QuizSheet quizSheet : sheets) {
 			this.calculateScore(quizSheet);
@@ -65,19 +61,19 @@ public class DataSets implements QuizSets {
 	}
 
 	public QuizSheet getSheetAt(int index) {
-		return sheets.elementAt(index);
+		return sheets.get(index);
 	}
 
 	@Override
 	public QuizSheet getSheet(String question) {
-		return sheetMap.get(question);
+		return sheets.get(question);
 	}
 
 	@Override
 	public QuizSheet getCurrent() {
 		if (numAtList < 0)
 			return null;
-		return getSheet(answerList.elementAt(numAtList).question);
+		return getSheet(answerList.get(numAtList).question);
 	}
 
 	@Override
@@ -87,14 +83,16 @@ public class DataSets implements QuizSets {
 
 	@Override
 	public boolean moveForward() {
-		if (++numAtList >= answerList.size()) {
-			if (answerList.size() < this.getSheetCount()) {
-				answerList.add(getNewSheet());
-				return true;
-			} else {
-				numAtList--;
-			}
+		numAtList++;
+		if (numAtList < answerList.size()) {
+			return true;
 		}
+		if (answerList.size() < this.getSheetCount()) {
+			QuizSheet qs = this.getScoredRandomSheet();
+			answerList.put(qs.question, new SheetAnswer(qs.question));
+			return true;
+		}
+		numAtList--;
 		return false;
 	}
 
@@ -106,41 +104,25 @@ public class DataSets implements QuizSets {
 		return true;
 	}
 
+	@Override
 	public String getUserAnswer() {
-		return answerList.elementAt(numAtList).answer;
+		return answerList.get(numAtList).answer;
 	}
 
 	@Override
 	public void setUserAnswer(String text) {
-		answerList.elementAt(numAtList).setAnswer(text);
+		answerList.get(numAtList).setAnswer(text);
 		this.calculateScore(this.getCurrent());
 		this.calculateWeight(this.getCurrent());
 	}
 
-	public QuizSheet getRandomSheet() {
-		int r = (int) (System.currentTimeMillis() % this.getSheetCount());
-		return this.getSheetAt(r);
-	}
-
-	public SheetAnswer getNewSheet() {
-		if (answerList.size() == this.getSheetCount())
-			return null;
-		QuizSheet qs = this.getScoredRandomSheet();
-		while (answerListMap.get(qs.question) != null) {
-			qs = this.getScoredRandomSheet();
-		}
-		SheetAnswer sheetAnswer = new SheetAnswer(qs.question);
-		answerListMap.put(qs.question, sheetAnswer);
-		return sheetAnswer;
-	}
-
 	private double calculateScore(QuizSheet sh) {
-		if (answerMap.get(sh.question) == null) {
-			return 1000;
+		if (answerDataMap.get(sh.question) == null) {
+			return 0;
 		}
 		long currtime = System.currentTimeMillis();
 		double score = 0;
-		Vector<SheetAnswer> answerList = answerMap.get(sh.question);
+		Vector<SheetAnswer> answerList = answerDataMap.get(sh.question);
 		for (SheetAnswer shans : answerList) {
 			if (sh.checkAnswer(shans.answer)) {
 				score += Math.exp((shans.answertime - currtime) / constAttr4);
@@ -158,49 +140,56 @@ public class DataSets implements QuizSets {
 	private Random random = new Random(System.currentTimeMillis());
 
 	private QuizSheet getScoredRandomSheet() {
-		String[] answerMapKeys = answerMap.keySet().toArray(new String[] {});
-		// if (sheetMap.size() >= answerMapKeys.length) {
-		// return getRandomSheet();
-		// }
-		if (answerMapKeys.length < 5) {
-			return getRandomSheet();
+		String[] allAnswerMapQuestions = answerDataMap.keySet().toArray(new String[] {});
+		if (allAnswerMapQuestions.length < 10) {
+			return getNewRandomSheet();
+		}
+		ArrayList<String> unusedAnswerMapQuestions = new ArrayList<String>();
+		for (String question : allAnswerMapQuestions) {
+			if (answerList.get(question) == null)
+				unusedAnswerMapQuestions.add(question);
+		}
+		if (unusedAnswerMapQuestions.size() < 3) {
+			return getNewRandomSheet();
 		}
 		double tscore = 0, tw = 0;
-		for (String key : answerMapKeys) {
-			tscore += this.getSheet(key).score;
+		for (String question : unusedAnswerMapQuestions) {
+			tscore += this.getSheet(question).score;
 		}
-		if (tscore / answerMapKeys.length > constAttr2) {
-			return getRandomSheet();
-		} else {
-			for (String key : answerMapKeys) {
-				// if (sheetMap.get(getSheet(key).question) == null) {
-				tw += this.getSheet(key).weight;
-				// }
-			}
-			double d = random.nextDouble() * tw;
-			for (String key : answerMapKeys) {
-				// if (sheetMap.get(getSheet(key).question) == null) {
-				d -= this.getSheet(key).weight;
-				if (d <= 0) {
-					return this.getSheet(key);
-				}
-				// }
-			}
-			return this.getSheet(answerMapKeys[answerMapKeys.length - 1]);
+		if (tscore / unusedAnswerMapQuestions.size() > constAttr2) {
+			return getNewRandomSheet();
 		}
+		for (String question : unusedAnswerMapQuestions) {
+			tw += this.getSheet(question).weight;
+		}
+		double d = random.nextDouble() * tw;
+		for (String question : unusedAnswerMapQuestions) {
+			d -= this.getSheet(question).weight;
+			if (d <= 0) {
+				return this.getSheet(question);
+			}
+		}
+		return this.getSheet(unusedAnswerMapQuestions.get(unusedAnswerMapQuestions.size() - 1));
+	}
+
+	private QuizSheet getNewRandomSheet() {
+		QuizSheet sheet = this.getSheetAt(random.nextInt(getSheetCount()));
+		while (answerList.get(sheet.question) != null)
+			sheet = this.getSheetAt(random.nextInt(getSheetCount()));
+		return sheet;
 	}
 
 	@Override
 	public Vector<SheetAnswer> getAnswerRecordData() {
 		Vector<SheetAnswer> answerData = new Vector<SheetAnswer>();
-		Set<String> keys = answerMap.keySet();
+		Set<String> keys = answerDataMap.keySet();
 		for (String key : keys) {
-			answerData.addAll(answerMap.get(key));
+			answerData.addAll(answerDataMap.get(key));
 		}
 		return answerData;
 	}
 
-	private Vector<SheetAnswer> reorderAnswerList(Vector<SheetAnswer> answers) {
+	private Vector<SheetAnswer> reOrderAnswerList(Vector<SheetAnswer> answers) {
 		Vector<SheetAnswer> ret = new Vector<SheetAnswer>();
 		for (SheetAnswer answer : answers) {
 			int j = 0;
@@ -213,14 +202,14 @@ public class DataSets implements QuizSets {
 
 	private void saveSessionAnswers() {
 		for (SheetAnswer answer : answerList) {
-			if (answerMap.get(answer.question) == null) {
-				answerMap.put(answer.question, new Vector<SheetAnswer>());
+			if (answerDataMap.get(answer.question) == null) {
+				answerDataMap.put(answer.question, new Vector<SheetAnswer>());
 			}
-			answerMap.get(answer.question).add(answer);
+			answerDataMap.get(answer.question).add(answer);
 		}
-		Set<String> keys = answerMap.keySet();
+		Set<String> keys = answerDataMap.keySet();
 		for (String key : keys) {
-			answerMap.put(key, reorderAnswerList(answerMap.get(key)));
+			answerDataMap.put(key, reOrderAnswerList(answerDataMap.get(key)));
 		}
 	}
 
@@ -230,9 +219,9 @@ public class DataSets implements QuizSets {
 	}
 
 	private void trimAnswerData() {
-		Set<String> keys = answerMap.keySet();
+		Set<String> keys = answerDataMap.keySet();
 		for (String key : keys) {
-			Vector<SheetAnswer> ansvec = answerMap.get(key);
+			Vector<SheetAnswer> ansvec = answerDataMap.get(key);
 			while (ansvec.size() > constAttr3) {
 				ansvec.remove(0);
 			}
@@ -255,8 +244,9 @@ public class DataSets implements QuizSets {
 	}
 
 	/* Test Session Data */
-	private HashMap<String, SheetAnswer> answerListMap = new HashMap<String, SheetAnswer>();
-	private Vector<SheetAnswer> answerList = new Vector<SheetAnswer>();
+	// private HashMap<String, SheetAnswer> answerListMap = new HashMap<String, SheetAnswer>();
+	// private Vector<SheetAnswer> answerList = new Vector<SheetAnswer>();
+	private OrderedKeyList<String, SheetAnswer> answerList = new OrderedKeyList<String, SheetAnswer>();
 	private int numAtList = -1;
 
 	@Override
@@ -270,7 +260,7 @@ public class DataSets implements QuizSets {
 			sheetAnswer.answer = answer;
 			long answertime = savedState.getLong("answertime[" + i + "]");
 			sheetAnswer.answertime = answertime;
-			answerList.add(sheetAnswer);
+			answerList.put(sheetAnswer.question, sheetAnswer);
 		}
 	}
 
@@ -279,9 +269,9 @@ public class DataSets implements QuizSets {
 		outState.putInt("length", answerList.size());
 		outState.putInt("numAtList", numAtList);
 		for (int i = 0; i < answerList.size(); i++) {
-			outState.putString("question[" + i + "]", answerList.elementAt(i).question);
-			outState.putString("answer[" + i + "]", answerList.elementAt(i).answer);
-			outState.putLong("answertime[" + i + "]", answerList.elementAt(i).answertime);
+			outState.putString("question[" + i + "]", answerList.get(i).question);
+			outState.putString("answer[" + i + "]", answerList.get(i).answer);
+			outState.putLong("answertime[" + i + "]", answerList.get(i).answertime);
 		}
 	}
 
@@ -346,16 +336,16 @@ public class DataSets implements QuizSets {
 	@Override
 	public String toString() {
 		String ret = "";
-		Set<String> keySet = answerMap.keySet();
+		Set<String> keySet = answerDataMap.keySet();
 		for (String key : keySet) {
-			QuizSheet sh = sheetMap.get(key);
+			QuizSheet sh = sheets.get(key);
 			ret += "QuizSheet{" + sh.question + "," + sh.getCorrectAnswer() + "}\r\n";
-			if (answerMap.get(sh.question) == null) {
+			if (answerDataMap.get(sh.question) == null) {
 				ret += "answerMap.get(sh.question) == null >> 1000\r\n";
 			}
 			long currtime = System.currentTimeMillis();
 			double score = 0;
-			Vector<SheetAnswer> answerList = answerMap.get(sh.question);
+			Vector<SheetAnswer> answerList = answerDataMap.get(sh.question);
 			if (answerList != null)
 				for (SheetAnswer shans : answerList) {
 					if (sh.checkAnswer(shans.answer)) {
