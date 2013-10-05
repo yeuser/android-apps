@@ -173,7 +173,7 @@ public class QuizListSpinner extends Activity {
 		if (val.answer.length > 1) {
 			for (int i = 0; i < val.answer.length; i++) {
 				if (radioButtons.elementAt(i).isChecked()) {
-					quizes.setUserAnswer("" + i);
+					quizes.setUserAnswer(val.answer[i]);
 					break;
 				}
 			}

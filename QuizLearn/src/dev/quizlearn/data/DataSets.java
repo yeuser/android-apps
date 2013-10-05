@@ -82,12 +82,16 @@ public class DataSets implements QuizSets {
 	public boolean moveForward() {
 		if (++numAtList >= answerList.size()) {
 			if (answerList.size() < this.getSheetCount()) {
-				answerList.add(getNewSheet());
+				SheetAnswer newSheet = getNewSheet();
+				if (newSheet == null) {
+					numAtList--;
+					return false;
+				}
+				answerList.add(newSheet);
 				return true;
-			} else {
-				numAtList--;
 			}
 		}
+		numAtList--;
 		return false;
 	}
 
@@ -152,6 +156,7 @@ public class DataSets implements QuizSets {
 
 	private QuizSheet getScoredRandomSheet() {
 		String[] answerMapKeys = answerMap.keySet().toArray(new String[] {});
+		String[] answerListMapKeys = answerListMap.keySet().toArray(new String[] {});
 		// if (sheetMap.size() >= answerMapKeys.length) {
 		// return getRandomSheet();
 		// }
