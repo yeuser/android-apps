@@ -170,10 +170,10 @@ public class QuizListSpinner extends Activity {
 		if (quizes.getCurrentIndex() < 0)
 			return;
 		QuizSheet val = quizes.getCurrent();
-		if (val.answer.length > 1) {
-			for (int i = 0; i < val.answer.length; i++) {
+		if (val.getAnswerCount() > 1) {
+			for (int i = 0; i < val.getAnswerCount(); i++) {
 				if (radioButtons.elementAt(i).isChecked()) {
-					quizes.setUserAnswer(val.answer[i]);
+					quizes.setUserAnswer(val.getAnswerAt(i));
 					break;
 				}
 			}
@@ -184,14 +184,14 @@ public class QuizListSpinner extends Activity {
 
 	private void changeUI() {
 		QuizSheet val = quizes.getCurrent();
-		String qtext = ((quizes.getCurrentIndex() + 1) + "." + val.question).replaceAll("\\s+", " ");
+		String qtext = ((quizes.getCurrentIndex() + 1) + "." + val.getQuestion()).replaceAll("\\s+", " ");
 		questionLabel.setText(qtext);
-		if (val.answer.length > 1) {
+		if (val.getAnswerCount() > 1) {
 			if (quizes.getUserAnswer() == null) {
 				options.clearCheck();
-				for (int i = 0; i < val.answer.length; i++) {
+				for (int i = 0; i < val.getAnswerCount(); i++) {
 					RadioButton rb = radioButtons.elementAt(i);
-					rb.setText(val.answer[i]);
+					rb.setText(val.getAnswerAt(i));
 					// rb.setChecked(false);
 					rb.setVisibility(View.VISIBLE);
 					rb.setBackgroundColor(Color.TRANSPARENT);
@@ -200,17 +200,17 @@ public class QuizListSpinner extends Activity {
 			} else {
 				options.clearCheck();
 				options.setEnabled(false);
-				for (int i = 0; i < val.answer.length; i++) {
+				for (int i = 0; i < val.getAnswerCount(); i++) {
 					RadioButton rb = radioButtons.elementAt(i);
-					boolean checked = quizes.getUserAnswer().equals("" + i);
-					if (i == val.correctAnswer) {
+					boolean checked = quizes.getUserAnswer().equals(val.getAnswerAt(i));
+					if (val.isCorrectAnswer(i)) {
 						rb.setBackgroundColor(Color.GREEN);
 					} else if (checked) {
 						rb.setBackgroundColor(Color.RED);
 					} else {
 						rb.setBackgroundColor(Color.TRANSPARENT);
 					}
-					rb.setText(val.answer[i]);
+					rb.setText(val.getAnswerAt(i));
 					rb.setChecked(checked);
 					rb.setVisibility(View.VISIBLE);
 					rb.setEnabled(false);
@@ -250,7 +250,7 @@ public class QuizListSpinner extends Activity {
 	protected void goPrevious() {
 		saveAnswer();
 		if (quizes.moveBackward()) {
-			questionLabel.setText(quizes.getCurrentIndex() + ". " + quizes.getCurrent().question);
+			questionLabel.setText(quizes.getCurrentIndex() + ". " + quizes.getCurrent().getQuestion());
 		}
 		changeUI();
 	}

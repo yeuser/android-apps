@@ -23,6 +23,10 @@ public class DataSets implements QuizSets {
 	private final int constAttr3 = 10; // number of accepted answer record for each word
 	private static final double constAttr4 = 5 * 24 * 60 * 60 * 1000; // 5 Day period
 
+	/* Exam Session Data */
+	private OrderedKeyList<String, SheetAnswer> answerList = new OrderedKeyList<String, SheetAnswer>();
+	private int numAtList = -1;
+
 	private String saveFile;
 	private Activity activity;
 
@@ -241,12 +245,6 @@ public class DataSets implements QuizSets {
 		}
 	}
 
-	/* Test Session Data */
-	// private HashMap<String, SheetAnswer> answerListMap = new HashMap<String, SheetAnswer>();
-	// private Vector<SheetAnswer> answerList = new Vector<SheetAnswer>();
-	private OrderedKeyList<String, SheetAnswer> answerList = new OrderedKeyList<String, SheetAnswer>();
-	private int numAtList = -1;
-
 	@Override
 	public void LoadState(Bundle savedState) {
 		int len = savedState.getInt("length");
@@ -273,64 +271,6 @@ public class DataSets implements QuizSets {
 		}
 	}
 
-	// @Override
-	// public void LoadState(String savedStateString) {
-	// DataSets ds = new Gson().fromJson(savedStateString, DataSets.class);
-	// this.quizList = ds.quizList;
-	// this.quizMap = ds.quizMap;
-	// this.answerList = ds.answerList;
-	// this.numAtList = ds.numAtList;
-	// // int quizListLength = savedState.getInt("quizListLength");
-	// // Log.i("load_app", "quizListLength=" + quizListLength);
-	// // String notf = "quizListLength=" + quizListLength;
-	// // for (int i = 0; i < quizListLength; i++) {
-	// // Log.i("load_app", "Starting load for quiz sheet " + i);
-	// // Bundle b = savedState.getBundle("quiz_sheet_" + i);
-	// // notf += ",quiz_sheet_" + i;
-	// // QuizSheet q = new QuizSheet();
-	// // q.LoadState(b);
-	// // quizList.add(q);
-	// // quizMap.put(q.question, q);
-	// // Log.i("load_app", "Starting load for sheet answer " + i);
-	// // b = savedState.getBundle("quiz_sheet_answer_" + i);
-	// // notf += ",quiz_sheet_answer_" + i;
-	// // SheetAnswer sa = new SheetAnswer(q.question);
-	// // sa.LoadState(b);
-	// // answerList.add(sa);
-	// // }
-	// // numAtList = savedState.getInt("numAtList");
-	// // Log.i("load_app", "numAtList=" + numAtList);
-	// // notf += ",numAtList=" + numAtList;
-	// // MainActivity.makeNotification(notf);
-	// }
-	//
-	// @Override
-	// public String SaveState() {
-	// return new Gson().toJson(this);
-	// // Log.i("save_app", "quizListLength=" + quizList.size());
-	// // outState.putInt("quizListLength", quizList.size());
-	// // String notf = "quizListLength=" + "quizListLength=" + quizList.size();
-	// // int i = 0;
-	// // for (QuizSheet quizSheet : quizList) {
-	// // Log.i("save_app", "Starting save for quiz sheet " + i);
-	// // Bundle b = new Bundle();
-	// // quizSheet.SaveState(b);
-	// // notf += ",quiz_sheet_" + i;
-	// // outState.putBundle("quiz_sheet_" + i++, b);
-	// // }
-	// // i = 0;
-	// // for (SheetAnswer sheetAnswer : answerList) {
-	// // Log.i("save_app", "Starting save for sheet answer " + i);
-	// // Bundle b = new Bundle();
-	// // sheetAnswer.SaveState(b);
-	// // notf += ",quiz_sheet_answer_" + i;
-	// // outState.putBundle("quiz_sheet_answer_" + i++, b);
-	// // }
-	// // Log.i("save_app", "numAtList=" + numAtList);
-	// // outState.putInt("numAtList", numAtList);
-	// // notf += ",numAtList=" + numAtList;
-	// // MainActivity.makeNotification(notf);
-	// }
 	@Override
 	public String toString() {
 		String ret = "";

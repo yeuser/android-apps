@@ -1,12 +1,12 @@
 package dev.quizlearn.data;
 
-public class QuizSheet  {
-	public String question;
-	public String[] answer;
-	public byte correctAnswer = 0;
-	public double score;
-	public double weight;
-	public float level;
+public class QuizSheet {
+	String question;
+	String[] answer;
+	byte correctAnswer = 0;
+	double score;
+	double weight;
+	float level;
 
 	public boolean checkAnswer(String useranswer) {
 		return answer[correctAnswer].equalsIgnoreCase(useranswer);
@@ -14,6 +14,34 @@ public class QuizSheet  {
 
 	public String getCorrectAnswer() {
 		return answer[correctAnswer];
+	}
+
+	public boolean isCorrectAnswer(int i) {
+		return correctAnswer == i;
+	}
+
+	public String getQuestion() {
+		return question;
+	}
+
+	public int getAnswerCount() {
+		return answer.length;
+	}
+
+	public String getAnswerAt(int i) {
+		return answer[i];
+	}
+
+	public double getScore() {
+		return score;
+	}
+
+	public double getWeight() {
+		return weight;
+	}
+
+	public float getLevel() {
+		return level;
 	}
 
 	@Override
